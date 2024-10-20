@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                       // ใช้ target เวอร์ชั่นที่ Node.js รองรับ
+      "module": "commonjs",                   // ใช้ commonjs module system สำหรับ Node.js
+      "strict": true,                         // เปิดการตรวจสอบที่เข้มงวด
+      "esModuleInterop": true,                // อนุญาตการนำเข้า module ที่เข้ากันได้
+      "skipLibCheck": true,
+      "outDir": "./dist"                      // เผื่อในกรณีที่คุณยังต้องการ build
+    },
+    "include": ["src/**/*.ts"],               // ระบุว่าให้รวมไฟล์ TypeScript ในโฟลเดอร์ src
+    "exclude": ["node_modules"]
+  }
+  
